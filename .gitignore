@@ -3,5 +3,6 @@
 *
 !.gitignore
 !AGENTS.md
+!README.md
 !config.yml
 !mcp.json
