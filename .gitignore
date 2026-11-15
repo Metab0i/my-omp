@@ -6,3 +6,9 @@
 !README.md
 !config.yml
 !mcp.json
+# Authored skills, extensions and the Skillshare lockfile (created on demand).
+!skills/
+!skills/**
+!extensions/
+!extensions/**
+!skills.lock.json
