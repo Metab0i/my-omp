@@ -1,0 +1,7 @@
+# Agent directory: version only configuration, never runtime state.
+# Secrets live in agent.db (auth_credentials) and sessions/, which stay ignored.
+*
+!.gitignore
+!AGENTS.md
+!config.yml
+!mcp.json

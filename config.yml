@@ -1,0 +1,44 @@
+shellPath: C:\Program Files\Git\bin\bash.exe
+modelRoles:
+  default: opencode-go/deepseek-v4.1-flash
+  advisor: opencode-go/kimi-k3.1-pro:high
+symbolPreset: unicode
+composer:
+  shape: pi
+  tokenRate: true
+theme:
+  dark: dark-equinox
+  light: birch
+update:
+  auto: true
+setupVersion: 3
+advisor:
+  enabled: true
+  continueSeverity: concern
+  reviewMode: turn
+bash:
+  allowCompoundCommands: true
+colorBlindMode: false
+statusLine:
+  preset: default
+  separator: block
+  contextLine: embedded
+  transparent: false
+tui:
+  spinnerInterval: 80
+defaultThinkingLevel: auto
+hideThinkingBlock: true
+providers:
+  autoThinkingMaxEffort: xhigh
+personality: default
+interruptMode: immediate
+tools:
+  approvalMode: yolo
+edit:
+  mode: hashline
+computer:
+  enabled: true
+checkpoint:
+  enabled: true
+task:
+  enableLsp: false

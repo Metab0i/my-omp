@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/can1357/oh-my-pi/main/packages/coding-agent/src/config/mcp-schema.json",
+  "mcpServers": {
+    "rea": {
+      "type": "stdio",
+      "command": "C:\\Users\\User\\tools\\node-v24.22.3-win-x64\\node.exe",
+      "args": [
+        "C:\\Users\\User\\tools\\node-v24.22.3-win-x64\\node_modules\\rea-agents\\scripts\\rea.mjs",
+        "mcp"
+      ],
+      "env": {
+        "JAVA_HOME": "C:\\Users\\User\\tools\\jdk-21.0.13+9",
+        "GHIDRA_INSTALL_DIR": "C:\\Users\\User\\tools\\ghidra_12.2_PUBLIC"
+      }
+    }
+  }
+}
