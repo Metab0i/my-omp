@@ -21,3 +21,16 @@
 !plugins/bun.lock
 !plugins/omp-plugins.lock.json
 !plugins/installed_plugins.json
+
+# Named profiles: configuration only, never their databases, sessions or caches.
+!profiles/
+!profiles/*/
+!profiles/*/agent/
+!profiles/*/agent/AGENTS.md
+!profiles/*/agent/config.yml
+!profiles/*/agent/mcp.json
+!profiles/*/agent/skills.lock.json
+!profiles/*/agent/skills/
+!profiles/*/agent/skills/**
+!profiles/*/agent/extensions/
+!profiles/*/agent/extensions/**

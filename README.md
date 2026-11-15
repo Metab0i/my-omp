@@ -41,4 +41,5 @@ a different host.
 | `agent/managed-skills/` | Auto-learn output derived from past sessions | no |
 | `cache/`, `logs/`, `natives/`, `run/`, `update/`, `install-id` | Caches, logs, binaries, runtime state | no |
 | `plugins/node_modules/`, `plugins/cache/` | Installed code, derivable | no |
-| `profiles/` | Per-profile agent directories | no |
+| `profiles/<name>/agent/{config.yml,AGENTS.md,mcp.json,skills,extensions}` | Per-profile configuration | yes |
+| `profiles/<name>/agent/*.db`, `sessions/`, caches | Per-profile state and credentials | no |
