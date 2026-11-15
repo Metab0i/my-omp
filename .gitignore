@@ -1,14 +1,23 @@
-# Agent directory: version only configuration, never runtime state.
-# Secrets live in agent.db (auth_credentials) and sessions/, which stay ignored.
+# ~/.omp: version the harness configuration, never runtime state.
+# Whitelist by default: caches, logs, databases (auth secrets), sessions,
+# profiles, updates and installed plugin code stay ignored.
 *
 !.gitignore
-!AGENTS.md
 !README.md
-!config.yml
-!mcp.json
-# Authored skills, extensions and the Skillshare lockfile (created on demand).
-!skills/
-!skills/**
-!extensions/
-!extensions/**
-!skills.lock.json
+!marketplaces.json
+
+!agent/
+!agent/AGENTS.md
+!agent/config.yml
+!agent/mcp.json
+!agent/skills.lock.json
+!agent/skills/
+!agent/skills/**
+!agent/extensions/
+!agent/extensions/**
+
+!plugins/
+!plugins/package.json
+!plugins/bun.lock
+!plugins/omp-plugins.lock.json
+!plugins/installed_plugins.json
